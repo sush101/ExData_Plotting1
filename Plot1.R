@@ -5,7 +5,7 @@
 rm(list=ls(all=TRUE))
 
 # set the working Directory:
-setwd("D:/sushma/ExploratoryDataAnalysis/courseProject1/ExData_Plotting1-master")
+setwd("D:/ExploratoryDataAnalysis/courseProject1/ExData_Plotting1-master")
 
 # Read the text file in R:
 pwrCon<-read.table("household_power_consumption.txt",sep=";",header=T,stringsAsFactors=F)
